@@ -117,7 +117,8 @@ class _CartScreenState extends State<CartScreen> {
           'Mini Shopping Cart',
           style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
-        backgroundColor: Colors.teal,
+        // Giusab nako ni gikan sa Teal ngadto sa BlueGrey aron naay ika-3 nga commit
+        backgroundColor: Colors.blueGrey, 
       ),
       body: SafeArea(
         child: Column(
